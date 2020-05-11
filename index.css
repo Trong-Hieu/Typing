@@ -1,0 +1,168 @@
+body {
+    background: black;
+    color:rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 2000px;
+    position: relative;
+    padding: 0px 0px;
+}
+
+@media all and (max-width: 1920){}
+
+.navbar {
+    background-color: #222222;
+
+    width: 100%;
+    height: 81px;
+    position: fixed;
+    top: 5px;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.navbar ul li {
+    display: inline;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li img {
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    top: 0px;
+    bottom: 0px;
+    left: 63px;
+    right: 0px;
+}
+.navbar ul li button {
+    display: block;
+    position: absolute;
+    right: 90px;
+    background-color: #222222;
+    color: #ff3366;
+    text-decoration: none;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    top: 16px;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-radius: 30px;
+    border: 2px solid #ff3366;
+    transition-duration: 0.4s;
+}
+.navbar ul li button:hover {
+    background-color: #ff3366;
+    color: white;
+}
+
+.leftSideBar {
+    position: fixed;
+    top: 265px;
+    width: 337px;
+    height: 390px;
+    background-color: #222222;
+    border: 1px solid #464646;
+    left: -2px;
+}
+
+.leftSideBar ul {
+    list-style: none;
+}
+.leftSideBar ul li {
+    padding: 20px 0px;
+}
+.leftSideBar ul li button {
+    background-color: #222222;
+    color:white;
+    border: 2px solid black;
+    font-family: Arial;
+    width: 252px;
+    height: 63px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    border-radius: 30px;
+
+    transition-duration: 0.4s;
+}
+.leftSideBar ul li button:hover {
+    background-color: #ff3366;
+    color: white;
+}
+.buttonTP {
+    position: absolute;
+    left: -30px;
+    top: 66px;
+}
+
+.buttonHTP {
+    position: absolute;
+    left: -30px;
+    top: 153px;
+}
+
+.buttonTP:focus {
+    border: 2px solid #ff3366;
+    color: #ff3366;
+}
+.buttonHTP:focus {
+    border: 2px solid #ff3366;
+    color: #ff3366;
+}
+
+.rank {
+    position: fixed;
+    top: 256px;
+    right: 5px;;
+    width: 337px;
+    height: 390px;
+    border: 2px solid #464646;
+    background-color: #222222;
+}
+table {
+    font-size: 20px;
+}
+
+/* .tr1 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+} */
+.rank table th {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 80px;
+}
+.rank table td {
+    padding-top: 10px;
+    height: 40px;
+    padding-left: 40px;  
+}
+/* .rank table tr:hover {
+    background-color: #222222;
+} */
+/* line {
+    border: #333333;
+    height: 1px;
+} */
+/* .rank table img {
+    width: 40px;
+    height: 40px;
+} */
+.rank i {
+    position: absolute;
+    top: 350px;
+    left: 160px;
+}
+.typing {
+    position: absolute;
+    top: 265px;
+    left: 466px;
+}
