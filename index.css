@@ -165,4 +165,78 @@ table {
     position: absolute;
     top: 265px;
     left: 466px;
+    right: 1446px;
+    width: 1050px;
+}
+.typing select {
+    background-color: #222222;
+    color: white;
+    border: none;
+    width: 202px;
+    height: 49px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: Arial;
+    padding: 0px 30px;
+}
+.text {
+    background-color: #222222;
+    position: absolute;
+    top: 66px;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: Arial;
+}
+.text p {
+    position: absolute;
+    left: 30px;
+    width: 95%;
+}
+
+.typing input {
+    position: absolute;
+    top: 200px;
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+    font-family: Arial;
+    border: 2px solid #ff3366;
+    border-radius: 10px;
+}
+.time {
+    position: absolute;
+    top: 205px;
+    left: 750px;
+    width: 80px;
+    height: 50px;
+    font-size: 25px;
+    font-family: Arial;
+
+    background-color: #222222;
+    border-radius: 10px;
+}
+.time p {
+    position: relative;
+    top: -12px;
+    left: 14px;
+}
+.resetButton {
+    position: absolute;
+    top: 205px;
+    left: 850px;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+}
+.resetButton button{
+    display: block;
+    text-decoration: none;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    
+    background-color: #222222;
 }
