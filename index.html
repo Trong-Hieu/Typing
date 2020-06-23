@@ -60,7 +60,7 @@
             <option value="">Tiếng Anh</option>
         </select>
 
-        <button id="startButton">
+        <button onclick="myfunction()" id="startButton">
             <i class="fas fa-play fa-2x" style="color: white;"></i>
         </button>
 
@@ -80,6 +80,34 @@
         
     </div>
 
+    <div id="scoreModal">
+        <div id="modalContent">
+            <h2>RESULT</h2>
+            <hr>
+            <h2>Wpm</h2>
+            <table>
+                <tr>
+                    <td>Keystrokes</td>
+                    <td>(10|4) 14</td>
+                </tr>
+                <tr>
+                    <td>Accuracy</td>
+                    <td>66.67%</td>
+                </tr>
+                <tr>
+                    <td>Correct Letter</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Wrong Letter</td>
+                    <td>3</td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+
     <!-- <script>
         // Add active class to the current button (highlight it)
         var header = document.getElementsByClassName("pages");
@@ -92,5 +120,6 @@
           });
         }
     </script> -->
+    <script src="main.js"></script>
 </body>
 </html>

@@ -162,3 +162,6 @@ function reset(){
     text = " " + document.getElementById("text").value;
     textIndex = 0;
 }
+function myfunction(){
+    scoreModal.style.display = "block";
+}
