@@ -298,3 +298,26 @@ body {
     padding-left: 60px;
     
 }
+#closeModal {
+    display: block;
+    position: absolute;
+    background-color: #222222;
+    color: #ff3366;
+    text-decoration: none;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    top: 450px;
+    left: 950px;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    border-radius: 30px;
+    border: 2px solid #ff3366;
+    transition-duration: 0.4s;
+}
+#closeModal:hover {
+    background-color: #ff3366;
+    color: white;
+}
