@@ -8,7 +8,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
     <!-- <script src='main.js'></script> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body>
     <div class="navbar">
@@ -60,22 +60,20 @@
             <option value="">Tiếng Anh</option>
         </select>
 
-        <button onclick="myfunction()" id="startButton">
+        <button onclick="start()" id="startButton">
             <i class="fas fa-play fa-2x" style="color: white;"></i>
         </button>
 
-        <div class="text">
-                <p>đà nẵng tóc thuốc đồng hồ con ngươi điện thoại gối bình cầu thang
+        
+        <input type="text" id="text" disabled>
+        
 
-                    ích cuốn sổ tình yêu áo choàng đũa tinh thần cảm lá hồi hộp cá hoa</p>
-        </div>
-
-        <input type="text">
+        <input type="text" id="typing">
         <div class="time">
-            <p>1:00</p>
+            <p id="s">60</p>
         </div>
         <div class="resetButton">
-            <button><i class="fas fa-redo-alt fa-2x" style="color: white;"></i></button>
+            <button onclick="reset()"><i class="fas fa-redo-alt fa-2x" style="color: white;"></i></button>
         </div>
         
     </div>
@@ -86,23 +84,24 @@
             <hr>
             <h2>Wpm</h2>
             <table>
-                <tr>
+                <!-- <tr>
                     <td>Keystrokes</td>
                     <td>(10|4) 14</td>
-                </tr>
+                </tr> -->
                 <tr>
-                    <td>Accuracy</td>
-                    <td>66.67%</td>
+                    <td>Words</td>
+                    <td id="words"></td>
                 </tr>
                 <tr>
                     <td>Correct Letter</td>
-                    <td>6</td>
+                    <td id="correct" style="color: limegreen;"></td>
                 </tr>
                 <tr>
                     <td>Wrong Letter</td>
-                    <td>3</td>
+                    <td id="incorrect" style="color: firebrick;"></td>
                 </tr>
             </table>
+            <hr>
 
         </div>
 
