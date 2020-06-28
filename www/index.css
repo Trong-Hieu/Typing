@@ -1,3 +1,5 @@
+/* 4 Quyền */
+
 body {
     background: black;
     color:rgba(255, 255, 255, 0.9);
@@ -118,6 +120,10 @@ body {
     color: #ff3366;
 }
 
+/*  */
+
+/* 5 Danh */
+
 /* rank table */
 .rank {
     position: fixed;
@@ -132,11 +138,7 @@ body {
     font-size: 20px;
 }
 
-/* .tr1 {
-    position: absolute;
-    top: 40px;
-    left: 40px;
-} */
+
 .rank table th {
     padding-top: 40px;
     padding-bottom: 20px;
@@ -148,23 +150,14 @@ body {
     height: 40px;
     padding-left: 40px;  
 }
-/* .rank table tr:hover {
-    background-color: #222222;
-} */
-/* line {
-    border: #333333;
-    height: 1px;
-} */
-/* .rank table img {
-    width: 40px;
-    height: 40px;
-} */
+
 .rank i {
     position: absolute;
     top: 350px;
     left: 160px;
 }
 
+/* 6 Hieu */
 /* main contain - typing */
 .typing {
     position: absolute;
@@ -195,16 +188,7 @@ body {
     border-radius: 10px;
 }
 
-/* #textField {
-    background-color: #222222;
-    position: absolute;
-    top: 66px;
-    width: 100%;
-    height: 100px;
-    border-radius: 10px;
-    font-size: 25px;
-    font-family: Arial;
-} */
+
 #text {
     position: absolute;
     top: 66px;
@@ -260,6 +244,8 @@ body {
     
     background-color: #222222;
 }
+
+/* 8 Khai */
 
 /* score modal */
 

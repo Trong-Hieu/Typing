@@ -1,3 +1,6 @@
+    
+    // 9 Hieu
+    
     // var newText = ["sharanheyo", "iloveyou", "hiiamhieu", "document",
     //                 "correct", "value", "newtext", "incorrect", "da nang",
     //                 "random"];
@@ -36,18 +39,6 @@
 // }
 
 $("#typing").keydown(function (event) {
-    //while(text.length > 0){
-        //x = x + e.key;
-        // if(x.length <= text.length){
-        //     for (var i = 0; i< text.length; i++){
-        //         if(text.charAt(i) === x.charAt(i)) correct++;
-        //         else incorrect++;
-        //     }
-        // }
-
-        // Prevent the default action 
-        //event.preventDefault();
-        // Just in case
         event = event || window.event;
         // Get the pressed key code
         const charCode = event.which || event.keyCode;
@@ -75,7 +66,7 @@ $("#typing").keydown(function (event) {
         textIndex++;
 
         if(charCode === 8){  // Backspace key
-            // alert("bitch you are deleting")
+           
             textIndex = textIndex - 2;
             incorrect--;
             correct--;
@@ -85,32 +76,21 @@ $("#typing").keydown(function (event) {
             reset();
         }
 
-        // if(textIndex === 1){
-        //     start();
-        // }
-
+      
 
         console.log(charTyped)
 
-        // console.log("x: " + x.length);
-    //}
+    
   })
+//
 
+// 10 Khai
 
 
 function submit(){
 
     scoreModal.style.display = "block";
-    // var x = document.getElementById("typing").value;
-    // var text = document.getElementById("text").value;
-
-    // if(x==text) document.getElementById("demo").innerHTML = "true";
-    // else document.getElementById("demo").innerHTML = "false";
-
-    // for (var i = 0; i< text.length; i++){
-    //     if(text.charAt(i) == x.charAt(i)) correct++;
-    //     else incorrect++;
-    // }
+    
     document.getElementById("typing").value = "";
     console.log(x);
     console.log(typeof(x));
@@ -124,18 +104,14 @@ function submit(){
     document.getElementById("typing").disabled = true;
     //return false;
 }
-// $(window).keypress(function (e) {
-//     if (e.key === ' ' || e.key === 'Spacebar') {
-//       // ' ' is standard, 'Spacebar' was used by IE9 and Firefox < 37
-//       //e.preventDefault()
-//       console.log('Space pressed')
-//       document.getElementById("typing").value = "";
-//       //submit();
-//     }
-//   })
 
-console.log(text.length);
-console.log(x.length);
+function closeModal(){
+    scoreModal.style.display = "none";
+}
+
+//
+
+// 11 Quyen
 
 function start(){
     document.getElementById("typing").disabled = false;
@@ -152,6 +128,10 @@ function start(){
     },1000);
 
 }
+
+//
+
+// 12 Danh
 
 function restart(){
     correct = 0;
@@ -172,9 +152,4 @@ function reset(){
     textIndex = 0;
 }
 
-function closeModal(){
-    scoreModal.style.display = "none";
-}
-// function submit(){
-//     scoreModal.style.display = "block";
-// }
+//
